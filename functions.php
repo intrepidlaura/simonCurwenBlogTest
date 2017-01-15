@@ -15,7 +15,7 @@
 require_once('wp_bootstrap_navwalker.php');
 
 register_nav_menus( array(
-    'primary' => __( 'Primary Menu', 'Simon Curwen Blog' ),
+    'primary' => __( 'Primary Menu', 'SimonCurwenBlog' ),
 ) );
 
 		
@@ -32,10 +32,10 @@ register_nav_menus( array(
 		/* adding the styles */
 		
 		wp_enqueue_style('bootstrap-core', 
-		get_template_directory_uri() .'/css/boostrap.css;' );
+		get_template_directory_uri() .'/css/boostrap.css' );
 		
 		wp_enqueue_style('custom', 
-		get_template_directory_uri() .'/style.css;' );
+		get_template_directory_uri() .'/style.css' );
 		
 		wp_enqueue_style('my-google-fonts', '//fonts.googleapis.com/css?family=Ubuntu:200,300,300italic', true );
 		
