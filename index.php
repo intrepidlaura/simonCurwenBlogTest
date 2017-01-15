@@ -9,7 +9,7 @@
   
   <div class="row back-to-home">
     <div class="col-lg-12 go-home-row">
-    <a href="index.html"><p class="go-home"><img src="img/icons/back-arrow.png" width="24" height="7" alt=""/>&nbsp;&nbsp;back to homepage</p></a>
+    <a href="index.html"><p class="go-home"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/back-arrow.png" width="24" height="7" alt=""/>&nbsp;&nbsp;back to homepage</p></a>
     </div>
   </div>
   
@@ -18,11 +18,11 @@
   <div class="col-lg-12">
   <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <img src="img/icons/paint-blot.png" alt="paint blot" class="paint-blot-about">
+          <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/paint-blot.png" alt="paint blot" class="paint-blot-about">
           <p class="about-title">New Paintings</p>
       </div>
       <div class="col-lg-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-      	<img src="img/Simon_Curwen_Logo_watermark.png" alt="Simon Curwen logo watermark" class="img-responsive watermark-logo hidden-xs"/>
+      	<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Simon_Curwen_Logo_watermark.png" alt="Simon Curwen logo watermark" class="img-responsive watermark-logo hidden-xs"/>
       </div>
     </div>
   </div>
@@ -47,7 +47,7 @@
 
 
 
-<!-- blog image start --> <img src="img/for-sale-bg.jpg" class="blog-main-image img-responsive" alt="#"/> <!-- blog image end -->
+<!-- blog image start --> <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/for-sale-bg.jpg" class="blog-main-image img-responsive" width="600px" alt="#"/> <!-- blog image end -->
 
 <h2 class="blog-heading">Heading</h2>
             <p class="post-text-paragraph">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
@@ -83,7 +83,7 @@
             <p class="post-meta">January 1, 2017 by <a href="#">Simon</a></p>
 
 
-<!-- blog image start --> <img src="img/for-sale-bg.jpg" class="blog-main-image img-responsive" alt="#"/> <!-- blog image end -->
+<!-- blog image start --> <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/for-sale-bg.jpg" class="blog-main-image img-responsive" width="600px" alt="#"/> <!-- blog image end -->
 
 <h2 class="blog-heading">Heading</h2>
             <p class="post-text-paragraph">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
