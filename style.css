@@ -1,0 +1,564 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* WP INFORMATION BELOW */
+
+/*
+Theme Name: Simon Curwen | Artist | New Paintings
+Theme URI: http://simoncurwen.co.uk/latest
+Author: Intrepid Graphics
+Author URI: http://intrepidgraphico.uk/
+Description: Fully responsive WordPress blog built using Bootstrap
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: right-sidebar, responsive-layout, flexible-width, custom-header, custom-menu, editor-style, featured-images, translation-ready
+Text Domain: SimonCurwenBlog
+
+*/
+
+
+
+
+body {
+		
+		}
+		
+html {
+	
+		}
+		
+		
+		a {
+  color: #8DB5A2;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #556A52;
+  text-decoration: none;
+}
+
+
+	/* -------- NAV BAR START ---------- */
+	
+	
+	.navbar-default {
+		background-color: rgba(0, 0, 0, 0.61);
+		width: 100%;
+		background-size: cover;
+	}
+
+	.navbar {
+		 height: 60px;
+		 border: 0px;
+		 border-radius: 0px;
+		 width: 100%;
+	}
+	
+	.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+	.navbar .navbar-collapse {
+    text-align: center;
+}
+	
+	.nav li a:link  {
+	font-family: Ubuntu;
+	color: #f7f5f4;
+	font-size: 21px;
+	font-weight: 300;
+	line-height: 1px;
+	margin-top: 13px;
+
+}
+
+	.glyphicon-home {
+		margin-top: -10px;
+}
+
+
+/* navbar links media queries */
+
+				/* Small devices (tablets, 768px and up) */
+		@media (min-width: 768px) { 
+		
+			.nav li a:link  {
+		margin-left: 34px;
+		margin-right: 34px;
+		}
+		
+		
+		}
+		
+		/* Medium devices (desktops, 992px and up) */
+		@media (min-width: 922px) { 
+		
+		.nav li a:link  {
+		margin-left: 52px;
+		margin-right: 52px;
+		}
+		
+	
+		}
+		
+		/* Large devices (large desktops, 1200px and up) */
+		@media (min-width: 1200px) {
+		
+		.nav li a:link  {
+			margin-left: 75px;
+			margin-right: 75px;
+		}
+			
+		 }
+
+
+	
+	.navbar-default .navbar-text {
+  	color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  	color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  	color: #9a9a9a;
+}
+
+	
+
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  
+  /* toggle and collapse section */
+  
+  .navbar-toggle {
+  border: none;
+  border-radius: 0px;
+  margin-top: 13px;
+}
+
+.navbar-collapse {
+	background-color: rgba(0,0,0,0.67);
+	background-size: cover;
+}
+
+@media (min-width:320px){
+.navbar-collapse .home-icon {
+	display: none;
+	visibility: hidden;
+}
+}
+
+@media (min-width:767px){
+.navbar-collapse .home-icon {
+	display: block;
+	visibility: visible;
+}
+}
+
+/* -------- NAV BAR END ---------- */
+
+
+
+/* -------- INTRO SECTION STYLING START ---------- */	
+
+
+/* Extra Small devices (tablets, 321px and up) */
+		@media (min-width: 321px) { 
+
+.paint-blot-about {
+	z-index: -1;
+	position: absolute;
+	margin-top: -8px;
+	margin-left: -10px;
+}
+
+	
+		}
+		
+			/* Small devices (tablets, 768px and up) */
+		@media (min-width: 768px) { 
+		
+		.paint-blot-about {
+	z-index: -1;
+	position: absolute;
+	margin-top: -10px;
+	margin-left: -9px;
+}
+
+		}
+		
+		/* Medium devices (desktops, 992px and up) */
+		@media (min-width: 922px) { 
+		
+		.paint-blot-about {
+	z-index: -1;
+	position: absolute;
+	margin-top: -10px;
+	margin-left: -9px;
+}
+		
+		}
+		
+		/* Large devices (large desktops, 1200px and up) */
+		@media (min-width: 1200px) {
+			
+			.paint-blot-about {
+	z-index: -1;
+	position: absolute;
+	margin-top: -10px;
+	margin-left: -9px;
+}
+
+	
+		 }
+		 
+		 
+
+.go-home {
+	font-family: Ubuntu;
+	color: #58595b;
+	font-size: 11px;
+	font-weight: 300;
+}
+
+.about-title {
+	font-family: Ubuntu;
+	color: #231f20;
+	font-size: 31px;
+	font-weight: 300;
+	letter-spacing: 0.45em;
+}
+
+.about-main-text {
+	font-family: Ubuntu;
+	color: #231f20;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+
+		 
+		 
+/* -------- INTRO SECTION STYLING END ---------- */	
+
+ 
+
+/* -------- BLOG POSTS STYLING START ---------- */
+
+
+/* -- images -- */
+
+.blog-main-image {
+	
+	margin-top: 20px;
+	margin-bottom: 38px;
+}
+
+
+
+.news-post-bar {
+	margin-top: -40px;
+}
+
+.blog-post {
+	
+	margin-bottom: 72px;
+}
+
+.watermark-logo {
+	float: right;
+}
+
+.blog-header-band {
+	min-height: 200px;
+	padding-top: 120px;
+	margin-bottom: 50px;
+}
+
+.main-about-band {
+	margin-bottom: 20px;
+}
+
+.go-home-row {
+	margin-bottom: 22px;
+}
+
+
+/* Text styling start */
+
+.sub-headers {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 200;
+	font-size: 13pt;
+	letter-spacing: 0.6em;
+	margin-bottom: 30px;
+}
+
+.about-text-paragraph {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 200;
+	letter-spacing: 0.07em;
+	font-size: 11pt;
+}
+
+.post-bullet {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 200;
+	letter-spacing: 0.07em;
+	font-size: 10pt;
+}
+
+.post-title {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 200;
+	font-size: 13pt;
+	letter-spacing: 0.6em;
+	margin-bottom: 30px;
+}
+
+.post-meta {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 200;
+	font-size: 11px;
+	margin-top: -17px;
+}
+
+
+.blog-heading {
+	
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	font-size: 12pt;
+	letter-spacing: 0.1em;
+	margin-bottom: 10px;
+	
+}
+
+.blog-subheading {
+	
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	font-size: 10pt;
+	letter-spacing: 0.1em;
+	margin-bottom: 5px;
+	
+}
+
+
+.post-text-paragraph {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 200;
+	letter-spacing: 0.07em;
+	font-size: 10pt;
+	margin-top: 5px;
+}
+
+
+.sidebar-title {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 200;
+	font-size: 13pt;
+	letter-spacing: 0.6em;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.sidebar-text {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 200;
+	letter-spacing: 0.07em;
+	font-size: 10pt;
+}
+
+
+
+/* Text styling end */
+
+
+.sidebar-module {
+	
+	margin-bottom: 20px ;
+}
+
+
+/* -------- BLOG POSTS STYLING END ---------- */
+
+/* -------- PAGINATION STYLING START ---------- */
+
+.previous_next_text {
+	
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 200;
+	letter-spacing: 0.07em;
+	font-size: 10pt;
+	
+}
+
+.page-buttons {
+	
+	margin-bottom: 60px;
+	
+}
+
+/* -------- PAGINATION STYLING END ---------- */
+
+
+
+/* -------- FOOTER START ---------- */
+
+.footer-bar {
+	height: 80px;
+	background-color: #2d312c;
+	margin-bottom: 0px;
+	position: relative;
+}
+
+
+.footer-bar-about {
+	height: 80px;
+	background-color: #2d312c;
+	margin-bottom: 0px;
+	
+}
+
+.footer-bar-text-about {
+	font-family: Ubuntu;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 300;
+	margin-bottom: auto;
+	margin-top: 30px;
+}
+
+
+
+ /*footer */
+ 
+
+.footer-bar-about {
+	height: 80px;
+	background-color: #2d312c;
+	margin-bottom: 0px;
+	
+}
+
+
+.footer-bar-text-about {
+	font-family: Ubuntu;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 300;
+	margin-bottom: auto;
+	margin-top: 30px;
+}
+
+
+ 
+ 	/* Extra Small devices (tablets, 321px and up) */
+		@media (min-width: 321px) { 
+		
+
+		
+		.footer-text-right {
+			text-align: left;
+	
+			
+		}
+
+		
+		}
+		
+			/* Small devices (tablets, 768px and up) */
+		@media (min-width: 768px) { 
+		
+
+		
+		.footer-text-right {
+			text-align: right;
+		}
+		
+		}
+		
+		/* Medium devices (desktops, 992px and up) */
+		@media (min-width: 922px) { 
+			
+		
+		.footer-text-right {
+			text-align: right;
+		}
+		
+		}
+		
+		/* Large devices (large desktops, 1200px and up) */
+		@media (min-width: 1200px) {
+		
+		
+		.footer-text-right {
+			text-align: right;
+		
+		}
+				
+}
+		 
+		 
+/* -------- FOOTER END ---------- */
+
+/* -------- BACK TO TOP BUTTON START ---------- */
+
+.back-to-top-text {
+	font-family: "ubuntu";
+	font-size: 21px;
+	text-align:center;
+}
+
+
+@media (min-width:320px) {
+	.go-to-top {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media (min-width:768px) {
+	.go-to-top {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media (min-width:992px) {
+	.go-to-top {
+		display: block;
+		visibility: visible;
+	}
+}
+.go-to-top {
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.3);
+	font-size: 50px;
+	padding: 1em;
+	display: none;
+	text-align: center;
+}
+
+.go-to-top:hover {
+	color: #cbd0df;
+}
+
+.home-icon {
+	transform: translate(0, -8px)
+}
+
+/* -------- BACK TO TOP BUTTON END ---------- */
